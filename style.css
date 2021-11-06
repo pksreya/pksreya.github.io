@@ -1,10 +1,16 @@
+html {
+  	scroll-behavior: smooth;
+}
 /* Style the body */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-/*  	margin: 50px;*/
+  	margin: 0 auto;
 	color: #ebdbb2;
 	background-color:#4c4c4c ;
   
+}
+.menu {
+  	scroll-margin-top: 3em;
 }
 
 .header {
@@ -31,12 +37,13 @@ body {
 
 /* The navbar container */
 .navbar {
-  overflow: hidden;
-  background-color: #333;  
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+  	overflow: hidden;
+  	background-color: #333;  
+  	position: -webkit-sticky;
+	position: sticky;
+  	top: 0;
+/*  	width: 100%;
+  	z-index: 1;*/
 }
 
 .navbar a {
