@@ -4,10 +4,14 @@ html {
 /* Style the body */
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	max-width: 1500px;
   	margin: 0 auto;
 	color: #ebdbb2;
-	background-color:#4c4c4c ;
-  
+	//background-color:#4c4c4c;
+ 	background-image: url('dark.webp');
+ 	background-repeat: no-repeat;
+  	background-attachment: scroll; 
+  	background-size: 100% 100%;
 }
 .menu {
   	scroll-margin-top: 3em;
@@ -42,8 +46,8 @@ body {
   	position: -webkit-sticky;
 	position: sticky;
   	top: 0;
-/*  	width: 100%;
-  	z-index: 1;*/
+  	width: 100%;
+  	z-index: 1;
 }
 
 .navbar a {
@@ -70,7 +74,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1056px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
@@ -78,7 +82,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1056px) {
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
@@ -94,7 +98,7 @@ body {
 .content, .cv{
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1050px;
+	max-width: 95%;
 }
 .content p{
 	text-align: justify;
