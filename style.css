@@ -8,7 +8,7 @@ body {
   	margin: 0 auto;
 	color: #181818;
 	//background-color:#4c4c4c;
- 	background-image: url('b5.jpg');
+ 	background-image: url('6.png');
  	background-repeat: no-repeat;
   	background-attachment: scroll; 
   	background-size: 100% 100%;
@@ -31,9 +31,9 @@ body {
 .header {
 	text-align: left;
 	margin: 10px 0 20px;
-	font-size: 4.2em;
-	letter-spacing: .05em;
-	word-spacing: .2em;
+	font-size: 4.1em;
+	letter-spacing: .01em;
+	word-spacing: 0.08em;
 }
 
 
@@ -275,7 +275,7 @@ body {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
+  height: 10px;
   width: 15px;
   margin: 0 2px;
   background-color: rgba(128, 128, 128, 0.8);
